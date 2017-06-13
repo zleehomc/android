@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<<<<<<< HEAD
+
+=======
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_exam_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+>>>>>>> b08f28a1c569761438342882ebd8f6d8bca9abc5
+        <ImageView
+            android:id="@+id/exam_card_photo_iv"
+            android:layout_width="match_parent"
+            android:src="@drawable/default_photo"
+            android:layout_height="100dp" />
+<<<<<<< HEAD
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_exam_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请选择准考证"/>
+        <TextView
+            android:id="@+id/exam_card_numb_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="考       号"/>
+        <TextView
+            android:id="@+id/exam_card_exam_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="考试名称"/>
+        <TextView
+            android:id="@+id/exam_card_username_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="考生姓名"/>
+        <TextView
+            android:id="@+id/exam_card_place_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="考点名称"/>
+        <TextView
+            android:id="@+id/exam_card_site_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="座  位  号"/>
+=======
+        <TextView
+            android:id="@+id/exam_card_username_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/exam_card_numb_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/exam_card_place_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/exam_card_site_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+>>>>>>> b08f28a1c569761438342882ebd8f6d8bca9abc5
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:layout_weight="1.10" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/gallery1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pull_down" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:text="店铺名称：" />
+
+                <TextView
+                    android:id="@+id/goods_shoptitle"
+                    android:layout_width="209dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.03"
+                    android:text="@string/onloading"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.86" >
+
+                <TextView
+                    android:id="@+id/cart_shopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8.86"
+                    android:text="商品名称：" />
+
+                <TextView
+                    android:id="@+id/goodsname"
+                    android:layout_width="217dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onloading"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/billshopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8.86"
+                    android:text="商品价格：" />
+
+                <TextView
+                    android:id="@+id/goodsprice"
+                    android:layout_width="216dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:text="@string/onloading"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.14"
+                    android:text="库存数量：" />
+
+                <TextView
+                    android:id="@+id/goodsstock"
+                    android:layout_width="217dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onloading"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="21"
+                    android:text="简介" />
+
+                <TextView
+                    android:id="@+id/introduce"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:minLines="4"
+                    android:text="@string/onloading" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买数量："
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/goodscount"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="1" >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnaddtocart"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="加入购物车" />
+
+    </LinearLayout>
+
+</LinearLayout>

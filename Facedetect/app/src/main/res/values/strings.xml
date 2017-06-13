@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">云智</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_id">56d80d7a</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_online_face">关于</string>
+    <string name="large_text">
+        本软件为hyc毕业设计程序，仅供测试使用。
+    </string>
+    <string name="title_activity_facedetect">Facedetect</string>
+    <string name="title_activity_login">login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipwireless">http://zleehomc.duapp.com</string>
+    <string name="baidu_bos_host">http://facedetect.bj.bcebos.com</string>
+    <string name="temp">192.168.31.204</string>
+</resources>

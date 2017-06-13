@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:cardCornerRadius="15dp"
+        android:background="#ECECEC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/news_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Face.CircleImageView
+                    android:id="@+id/user_civ"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/exam_it_tv"
+                    android:maxLines="1"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="考号："
+                    android:layout_below="@+id/user_name_tv"
+                    android:layout_toEndOf="@+id/user_civ"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/seat_numb_tv"
+                    android:maxLines="2"
+                    android:background="#FAFAFA"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:text="座位号："
+                    android:textColor="#000000"
+                    android:layout_below="@+id/exam_it_tv"
+                    android:layout_toEndOf="@+id/user_civ"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/user_name_tv"
+                    android:maxLines="2"
+                    android:background="#FAFAFA"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:text="姓名："
+                    android:textColor="#000000"
+                    android:layout_alignTop="@+id/user_civ"
+                    android:layout_toEndOf="@+id/user_civ"
+                    android:layout_marginLeft="10dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/news_header"
+                android:layout_alignParentStart="true">
+                    <com.gc.materialdesign.views.ButtonRectangle
+                        android:id="@+id/btn_more"
+                        android:text="信息查看"
+                        android:layout_marginLeft="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_below="@+id/card_view"
+                        android:layout_centerHorizontal="true"
+                        android:shadowRadius="3"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center_horizontal" />
+                    <com.gc.materialdesign.views.ButtonRectangle
+                        android:id="@+id/btn_share"
+                        android:text="验证"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="10dp" />
+                <com.gc.materialdesign.views.ButtonRectangle
+                    android:id="@+id/btn_error"
+                    android:text="考生异常"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">味思客</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="copyright">北方工业大学 2013</string>
+    <string name="pulltorefresh">下拉刷新</string>
+    <string name="lastupdate">上次更新时间:</string>
+    <string name="txtmycart">我的购物车</string>
+    <string name="txtcartisempty">购物车为空, 去选购点儿东西吧~</string>
+    <string name="onloading">正在加载...</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+<ImageView
+    android:id="@+id/imageview_user"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:scaleType="centerCrop"
+    android:transitionName="image" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/nav_exit_btn"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_gravity="right"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/log_out"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/Username_tw" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:text="登录"
+        android:id="@+id/login_btn"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:background="@drawable/qt"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignTop="@+id/Username_tw"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+        android:id="@+id/Username_tw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Android Studio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_alignStart="@+id/login_btn"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="left|bottom" />
+
+    <Face.CircleImageView
+        android:id="@+id/user_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:layout_above="@+id/login_btn"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="left|center_vertical" />
+
+
+    </FrameLayout>

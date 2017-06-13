@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lv_name"
+        android:layout_below="@+id/lv_name"
+        android:text="商品价格" />
+
+    <ImageView
+        android:id="@+id/cart_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lv_name"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/cart_image"
+        android:text="商品名称"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

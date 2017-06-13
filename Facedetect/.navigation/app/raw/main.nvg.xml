@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.android.hyc.hyc_final.AboutActivity"/>
+      <point      
+        x = "2840"      
+        y = "292"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.android.hyc.hyc_final.MainActivity"/>
+      <point      
+        x = "320"      
+        y = "-8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.android.hyc.hyc_final.hotel_book_Activity"/>
+      <point      
+        x = "1564"      
+        y = "112"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
